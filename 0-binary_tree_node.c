@@ -10,15 +10,15 @@
  {
 	binary_tree_t *new = NULL;
 
-	new = malloc(sizeof(binary_tree_t));
+	nuevo = malloc(sizeof(binary_tree_t));
 	if (!new)
 	{
 		return (NULL);
 	}
-	new->parent = parent;
+	new->parent = padre;
 	new->left = NULL;
 	new->right = NULL;
-	new->n = value;
-	return (new);
+	new->n = val;
+	return (nuevo);
  }
  
